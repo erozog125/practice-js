@@ -1,0 +1,81 @@
+/* Crea estilos cool para este diseño */
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Counter clicks</title>
+</head>
+<body>
+  <h1>Contador de Clicks</h1>
+  <hr>
+  <div class="container-counter">
+    <h2 id="counter">0</h2>
+    <button id="increment-btn">Incrementar</button>
+    <button id="decrement-btn">Decrementar</button>
+    <button id="reset-btn">Reiniciar</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+hr {
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.container-counter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#counter {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #007BFF;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button#increment-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button#decrement-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
